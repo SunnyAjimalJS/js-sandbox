@@ -1,12 +1,26 @@
-// W3 Schools - JS Data Types
+// W3 Schools - JS Functions
 
-// Use comments to describe the correct data type of the following variables:
-var length = 16; // Number
-var lastName = "Johnson"; // String
+// Execute the function named myFunction.
+function myFunction() {
+  alert("Hello World!");
+}
 
-var x = {
-  firstName: "John",
-  lastName: "Doe",
-}; // Object
+myFunction();
 
-//
+// Create a function called "myFunction".
+function myFunction() {
+  alert("My Function");
+}
+
+myFunction();
+
+// Make the function return "Hello".
+function myFunction() {
+  return "Hello";
+}
+document.getElementById("demo").innerHTML = myFunction();
+
+//Make the function display "Hello" in the inner HTML of an element with the ID "demo".
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello";
+}
