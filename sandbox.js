@@ -1,35 +1,20 @@
-// (JavaScript practicisng) W3 Schools - JS Variables
+// W3 Schools - JS Operators
 
-// Create a variable called carName, assign the value Volvo to it.
+// Multiply 10 with 5, and alert the result:
+alert(10 * 5);
 
-let carName = "Volvo";
+// Divide 10 by 2, and alert the result:
+alert(10 / 2);
 
-// Create a variable called x, assign the value 50 to it.
+// Alert the remainder when 15 is divided by 9.
+alert(15 % 9);
 
-let x = 50;
+// Use the correct assignment operator that will result in x being 15 (same as x = x + y).
+x = 10;
+y = 5;
+x += y;
 
-// Display the sum of 5 + 10, using two variables: x and y.
-
-let x = 5;
-let y = 10;
-
-return x + y;
-
-// Create a variable called z, assign x + y to it, and display the result in an alert box.
-
-let x = 5;
-let y = 10;
-
-let z = x + y;
-
-alert(z);
-
-// On one single line, declare three variables with the following names and values:
-
-// firstName = "John"
-// lastName = "Doe"
-// age = 35
-
-let firstName = "John",
-  lastName = "Doe",
-  age = "35";
+// Use the correct assignment operator that will result in x being 50 (same as x = x * y).
+x = 10;
+y = 5;
+x *= y;
