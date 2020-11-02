@@ -1,17 +1,13 @@
-// W3 Schools - JS Dates
+// W3 Schools - JS Math
 
-// Create a Date object and alert the current date and time.
-var d = new Date();
-alert(d);
+// Use the correct Math method to create a random number.
+var r = Math.random();
 
-// Use the correct Date method to extract the year (four digits) out of a date object.
-var d = new Date();
-year = d.getFullYear();
+// Use the correct Math method to return the largest number of 10 and 20.
+var x = Math.max(10, 20);
 
-// Use the correct Date method to get the month (0-11) out of a date object.
-var d = new Date();
-month = d.getMonth();
+// Use the correct Math method to round a number to the nearest integer.
+var x = Math.round(5.3);
 
-// Use the correct Date method to set the year of a date object to 2020.
-var d = new Date();
-d.setFullYear(2020);
+//Use the correct Math method to get the square root of 9.
+var x = Math.sqrt(9);
