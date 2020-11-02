@@ -1,10 +1,15 @@
-// W3 Schools - JS Events
+// W3 Schools - JS Strings
 
-// The <button> element should do something when someone clicks on it. Try to fix it!
-<button onclick="alert('Hello')">Click me.</button>;
+//Use the length property to alert the length of txt.
+var txt = "Hello World!";
+var x = txt.length;
+alert(x);
 
-// When the button is clicked, the function "myFunction" should be executed.
-<button onclick="myFunction()">Click me.</button>;
+// Use escape characters to alert We are "Vikings".
+// var txt = 'We are \"Vikings\"';
+alert(txt);
 
-// The <div> element should turn red when someone moves the mouse over it.
-<div onmouseover="this.style.backgroundColor='red'">myDIV.</div>;
+// Concatenate the two strings to alert "Hello World!".
+var str1 = "Hello ";
+var str2 = "World!";
+alert(str1 + str2);
