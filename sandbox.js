@@ -1,21 +1,13 @@
-// W3 Schools - JS String Methods
+// W3 Schools - JS Arrays
 
-// Find the position of the character h in the string txt.
-var txt = "abcdefghijklm";
-var pos = txt.indexOf("h");
+// Get the value "Volvo" from the cars array.
+var cars = ["Saab", "Volvo", "BMW"];
+var x = cars[1];
 
-// Use the slice method to return the word "bananas".
-var txt = "I can eat bananas all day";
-var x = txt.slice(10, 17);
+// Change the first item of cars to "Ford".
+var cars = ["Volvo", "Jeep", "Mercedes"];
+cars[0] = "Ford";
 
-// Use the correct String method to replace the word "Hello" with the word "Welcome".
-var txt = "Hello World";
-txt = txt.replace("Hello", "Welcome");
-
-// Convert the value of txt to upper case.
-var txt = "Hello World";
-txt = txt.toUpperCase();
-
-//Convert the value of txt to lower case.
-var txt = "Hello World";
-txt = txt.toLowerCase();
+// Alert the number of items in an array, using the correct Array property.
+var cars = ["Volvo", "Jeep", "Mercedes"];
+alert(cars.length);
