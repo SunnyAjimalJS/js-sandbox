@@ -1,27 +1,10 @@
-// W3 Schools - JS Objects
+// W3 Schools - JS Events
 
-// Alert "John" by extracting information from the person object.
-var person = {
-  firstName: "John",
-  lastName: "Doe",
-};
+// The <button> element should do something when someone clicks on it. Try to fix it!
+<button onclick="alert('Hello')">Click me.</button>;
 
-alert(person.firstName);
+// When the button is clicked, the function "myFunction" should be executed.
+<button onclick="myFunction()">Click me.</button>;
 
-//Add the following property and value to the person object: country: Norway.
-var person = {
-  firstName: "John",
-  lastName: "Doe",
-  country: "Norway",
-};
-
-// Create an object called person with name = John, age = 50.
-// Then, access the object to alert("John is 50").
-
-var person = {
-  name: "John",
-  age: 50,
-};
-alert(person.name + " is " + person.age);
-
-//
+// The <div> element should turn red when someone moves the mouse over it.
+<div onmouseover="this.style.backgroundColor='red'">myDIV.</div>;
