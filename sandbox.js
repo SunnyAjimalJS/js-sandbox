@@ -1,13 +1,13 @@
-// W3 Schools - JS Arrays
+// W3 Schools - JS Array Methods
 
-// Get the value "Volvo" from the cars array.
-var cars = ["Saab", "Volvo", "BMW"];
-var x = cars[1];
+// Use the correct Array method to remove the last item of the fruits array.
+var fruits = ["Banana", "Orange", "Apple"];
+fruits.pop();
 
-// Change the first item of cars to "Ford".
-var cars = ["Volvo", "Jeep", "Mercedes"];
-cars[0] = "Ford";
+// Use the correct Array method to add "Kiwi" to the fruits array.
+var fruits = ["Banana", "Orange", "Apple"];
+fruits.push("Kiwi");
 
-// Alert the number of items in an array, using the correct Array property.
-var cars = ["Volvo", "Jeep", "Mercedes"];
-alert(cars.length);
+// Use the splice() method to remove "Orange" and "Apple" from fruits.
+var fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+fruits.splice(1, 2);
