@@ -1,13 +1,21 @@
-// W3 Schools - JS Math
+// W3 Schools - JS Comparisions
 
-// Use the correct Math method to create a random number.
-var r = Math.random();
+// Choose the correct comparison operator to alert true, when x is greater than y.
+x = 10;
+y = 5;
+alert(x > y);
 
-// Use the correct Math method to return the largest number of 10 and 20.
-var x = Math.max(10, 20);
+// Choose the correct comparison operator to alert true, when x is equal to y.
+x = 10;
+y = 10;
+alert(x == y);
 
-// Use the correct Math method to round a number to the nearest integer.
-var x = Math.round(5.3);
+// Choose the correct comparison operator to alert true, when x is NOT equal to y.
+x = 10;
+y = 5;
+alert(x != y);
 
-//Use the correct Math method to get the square root of 9.
-var x = Math.sqrt(9);
+// Choose the correct conditional (ternary) operator to alert "Too young" if age is less than 18, otherwise alert "Old enough".
+var age = n;
+var voteable = age < 18 ? "Too young" : "Old enough";
+alert(voteable);
