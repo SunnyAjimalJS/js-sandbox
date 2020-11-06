@@ -1,15 +1,17 @@
-// W3 Schools - JS While Loops
+// W3 Schools - JS Break Loops
 
-// Create a loop that runs as long as i is less than 10.
-var i = 0;
-while (i < 10) {
+// Make the loop stop when i is 5.
+for (i = 0; i < 10; i++) {
   console.log(i);
-  i++;
+  if (i == 5) {
+    break;
+  }
 }
 
-// Create a loop that runs as long as i is less than 10, but increase i with 2 each time.
-var i = 0;
-while (i < 10) {
-  i = i + 2;
+// Make the loop jump to the next iteration when i is 5.
+for (i = 0; i < 10; i++) {
+  if (i == 5) {
+    continue;
+  }
   console.log(i);
 }
